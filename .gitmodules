@@ -1,0 +1,7 @@
+[submodule "pub/tufte-pandoc-css"]
+	path = pub/tufte-pandoc-css
+	url = https://github.com/jez/tufte-pandoc-css
+[submodule "pub/tufte-css"]
+	path = pub/tufte-css
+	url = https://github.com/tg-x/tufte-css
+	branch = gh-pages
