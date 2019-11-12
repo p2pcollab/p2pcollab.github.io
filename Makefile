@@ -40,3 +40,15 @@ style:
 		pub/tufte-css/latex.css \
 		pub/tufte-css/et-book/ \
 		out/style
+
+
+.PHONY: doc
+doc:
+	dune build @doc
+	rm -rf out/doc/ocaml || true
+	mkdir -p out/doc
+	mv _build/default/_doc/_html out/doc/ocaml
+
+.PHONY: src
+src:
+	git submodule update --init --remote
