@@ -5,3 +5,24 @@
 	path = pub/tufte-css
 	url = https://github.com/tg-x/tufte-css
 	branch = gh-pages
+[submodule "src/ocaml-noise-socket"]
+	path = src/ocaml-noise-socket
+	url = https://github.com/p2pcollab/ocaml-noise-socket
+[submodule "src/ocaml-urps"]
+	path = src/ocaml-urps
+	url = https://github.com/p2pcollab/ocaml-urps
+[submodule "src/ocaml-sunnyhash"]
+	path = src/ocaml-sunnyhash
+	url = https://github.com/p2pcollab/ocaml-sunnyhash
+[submodule "src/ocaml-fsq"]
+	path = src/ocaml-fsq
+	url = https://github.com/p2pcollab/ocaml-fsq
+[submodule "src/ocaml-blip"]
+	path = src/ocaml-blip
+	url = https://github.com/p2pcollab/ocaml-blip
+[submodule "src/ocaml-psi"]
+	path = src/ocaml-psi
+	url = https://github.com/p2pcollab/ocaml-psi
+[submodule "src/ocaml-p2p"]
+	path = src/ocaml-p2p
+	url = https://github.com/p2pcollab/ocaml-p2p
