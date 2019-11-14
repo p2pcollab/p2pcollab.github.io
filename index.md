@@ -1,7 +1,7 @@
 ---
 title: P2Pcollab
 subtitle: protocols for peer-to-peer collaboration
-image: img/logo.png
+image: img/cover.png
 lang: en-GB
 ---
 
@@ -117,12 +117,16 @@ community or commercial provider.
 ## Data stores
 
 The most important building blocks of our decentralized collaboration protocol
-are mergeable data structures stored in replicated data repositories.
+are mergeable data structures stored in replicated data repositories[^mpds].
 A publish-subscribe protocol takes care of replication of subscribed content,
 while [Conflict-free replicated data types](https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type) (CRDT)
 enable conflict-free merges on these data structures.
 Applications render content from these data repositories and perform
 operations on them.
+
+[^mpds]:
+    See the paper
+    [Mergeable persistent data structures](https://hal.inria.fr/hal-01099136).
 
 ## Search & discovery
 
@@ -134,7 +138,7 @@ The following modules are a curated list of protocols,
 which, when combined, result in a protocol suite that facilitates
 P2P collaboration according to our [vision](#about) and [design principles](#design-principles).
 
-## P2P protocols
+## P2P gossip-based protocols
 
 PolderCast
 :   P2P topic-based pub/sub
@@ -190,7 +194,8 @@ NoiseSocket
     ([spec](https://noisesocket.org/spec/noisesocket/),
      [code](https://github.com/p2pcollab/ocaml-noise-socket))
 
-# Documentation
+# Further reading
 
 - [Source code](https://github.com/p2pcollab)
 - [OCaml package documentation](https://p2pcollab.net/doc/ocaml/)
+- [Cover image](https://tg-x.net/lsys/#?i=30&r=L%20%3A%20S%0AS%20%3A%20F%2B%5BF-Y%5BS%5D%5DF%29G%0AY%20%3A--%5B%7CF-F-%29-F%3EY%5D-%0AG%3A%20FGF%5B%2BF%5D%2B%3CY&p.size=11,0&p.angle=54.891,2.072051145&offsets=0,0,0&s.size=8.6,6.7&s.angle=7.6,4&play=0&anim=return%20%7B%0A%20angleX%3A%20t%2F1000%2C%0A%20angleY%3A%20t%2F1000%2C%0A%20sizeX%3A%20null%2C%0A%20sizeY%3A%20null%2C%0A%20offsetX%3A%20null%2C%0A%20offsetY%3A%20null%2C%0A%20rotation%3A%20null%0A%20%7D&name=dream%20catcher)
