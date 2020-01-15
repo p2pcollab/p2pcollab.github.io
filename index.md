@@ -72,12 +72,14 @@ Offline first
 
 ## Unikernels
 
-[Unikernels](http://unikernel.org/) are specialized, single-address-space machine images
-constructed by library operating systems.
+[Unikernels](http://unikernel.org/) are specialized, single-address-space 
+machine images constructed by library operating systems. Reducing attack 
+surface by [Principle of least privilege](https://en.wikipedia.org/wiki/Principle_of_least_privilege).
 They can be run as virtual machines on a hypervisor, or as sandboxed processes.
 
-Their design aligns well with our [design principles](#design-principles),
-and they are well-suited for constructing self-organized P2P systems.
+In addition to the security benefits, their design aligns well with our
+[design principles](#design-principles) of *Minimalism*, and *Composability*,
+altogether making them well-suited for constructing self-organized P2P systems.
 
 ### Related software
 
